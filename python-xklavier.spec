@@ -2,7 +2,7 @@
 
 Name: python-xklavier
 Version: 0.2
-Release: %mkrel 1
+Release: %mkrel 2
 Summary: Python binding for libxklavier
 License: LGPL
 Group: Graphical desktop/Other
@@ -32,7 +32,7 @@ Python binding for libxklavier.
 
 %build
 %define __libtoolize true
-%configure --disable-static
+%configure --disable-static am_cv_python_pyexecdir=%{py_platsitedir}
 make
 
 %install
@@ -45,5 +45,5 @@ rm -rf %{buildroot}
 
 %files 
 %defattr(-,root,root,-)
-%{python_sitelib}/*
+%{py_platsitedir}/*
 
