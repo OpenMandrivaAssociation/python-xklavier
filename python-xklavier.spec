@@ -32,7 +32,7 @@ Python binding for libxklavier.
 
 %build
 %define __libtoolize true
-%configure --disable-static am_cv_python_pyexecdir=%{py_platsitedir}
+%configure --disable-static am_cv_python_pyexecdir=%{python_sitelib}
 make
 
 %install
@@ -45,5 +45,5 @@ rm -rf %{buildroot}
 
 %files 
 %defattr(-,root,root,-)
-%{py_platsitedir}/*
+%{python_sitelib}/*
 
