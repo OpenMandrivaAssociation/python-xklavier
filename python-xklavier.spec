@@ -3,7 +3,7 @@
 
 Name: python-xklavier
 Version: 0.2
-Release: %mkrel 2
+Release: %mkrel 3
 Summary: Python binding for libxklavier
 License: LGPL
 Group: Graphical desktop/Other
@@ -11,8 +11,6 @@ Url: http://sugarlabs.org/
 
 Source: http://download.sugarlabs.org/sources/external/python-xklavier/python-xklavier-0.2.tar.gz
 
-Requires: gtk+2 >= 2.2.0
-Requires: libxklavier15 >= 4.0
 Requires: python-gobject >= 2.6.2
 Requires: python  
 
