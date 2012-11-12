@@ -1,0 +1,13 @@
+diff -p -up python-xklavier-0.2/xklavier/xklavier.defs~ python-xklavier-0.2/xklavier/xklavier.defs
+--- python-xklavier-0.2/xklavier/xklavier.defs~	2009-08-14 00:01:07.000000000 +0200
++++ python-xklavier-0.2/xklavier/xklavier.defs	2010-01-11 14:29:16.000000000 +0100
+@@ -453,6 +453,9 @@
+   (of-object "XklEngine")
+   (c-name "xkl_engine_stop_listen")
+   (return-type "gint")
++  (parameters
++    '("guint" "flags")
++  )
+ )
+ 
+ (define-method pause_listen
