@@ -1,3 +1,5 @@
+%define _disable_ld_no_undefined 1
+
 Name:		python-xklavier
 Version:	0.2
 Release:	6
