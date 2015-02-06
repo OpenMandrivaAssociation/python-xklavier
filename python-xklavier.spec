@@ -2,7 +2,7 @@
 
 Name:		python-xklavier
 Version:	0.2
-Release:	6
+Release:	7
 Summary:	Python binding for libxklavier
 License:	LGPLv2+
 Group:		Development/Python
