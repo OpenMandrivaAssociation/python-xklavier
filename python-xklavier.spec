@@ -6,7 +6,7 @@ Release:	7
 Summary:	Python binding for libxklavier
 License:	LGPLv2+
 Group:		Development/Python
-Url:		http://sugarlabs.org/
+Url:		https://sugarlabs.org/
 
 Source0:	http://download.sugarlabs.org/sources/external/python-xklavier/python-xklavier-%version.tar.gz
 Patch:		python-xklavier-0.2-xklavier-5.0.patch
