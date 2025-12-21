@@ -14,6 +14,11 @@ Patch:		python-xklavier-0.2-xklavier-5.0.patch
 Requires:	python-gobject >= 2.6.2
 Requires:	python  
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(gtk+-2.0)
 BuildRequires:	pkgconfig(libxklavier)
 BuildRequires:	python-gobject-devel >= 2.6.2
